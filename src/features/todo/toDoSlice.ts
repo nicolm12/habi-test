@@ -8,7 +8,7 @@ export type Todo = {
 };
 
 const initialState: Todo[] = [
-  { id: 0, text: "Learn Redux", completed: false },
+  { id: 0, text: "Learn Redux", completed: true },
   { id: 1, text: "Learn reduc Toolkit", completed: false },
   { id: 2, text: "Buid something fun!", completed: false },
 ];
