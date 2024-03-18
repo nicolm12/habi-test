@@ -8,9 +8,9 @@ export type Todo = {
 };
 
 const initialState: Todo[] = [
-  { id: 0, text: "Learn Redux", completed: true },
-  { id: 1, text: "Learn reduc Toolkit", completed: false },
-  { id: 2, text: "Buid something fun!", completed: false },
+  { id: 0, text: "Aprender redux", completed: true },
+  { id: 1, text: "Aprender redux toolkit", completed: false },
+  { id: 2, text: "Comprar algo divertido", completed: false },
 ];
 export const todoSlice = createSlice({
   name: "todo",
