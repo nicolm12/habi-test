@@ -39,7 +39,9 @@ function App() {
       <h2>Lista de tareas </h2>
       <strong><Paragrapht>¿Que quieres hacer hoy?</Paragrapht></strong>
       <Form />
+
         <TodoHeader />
+        
         <TodoList />
       </ContainerList>
     </Container>
