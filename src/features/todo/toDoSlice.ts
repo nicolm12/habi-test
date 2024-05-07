@@ -24,6 +24,7 @@ export const todoSlice = createSlice({
       };
       state.push(newTodo);
     },
+    // las claves o key indician la accion qu queremos ejecutar
     deleteTodo: (state, action: PayloadAction<number>) => {
       return state.filter((todo) => todo.id !== action.payload);
     },
